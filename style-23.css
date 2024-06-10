@@ -1,0 +1,40 @@
+*{margin:0;padding:0;}
+ul li {
+list-style:none;display: inline-block;line-height: 100px;
+}
+ul li a{display: block;
+text-decoration: none;font-size: 17px;font-family: Arial;color: rgba(247, 247, 247, 0.637);padding: 0 20px;
+
+}
+ul li a:hover{color:rgb(255, 255, 255);animation-duration: 1s;animation: alternate;}
+ul{
+    margin-left: 35px;
+}
+.name-1 {
+    color: white;font-style: italic;font-size: 30px;;
+}
+body{
+    background:rgba(0,0,0,0.4) url(../webpage-delta/pexels-pixabay-36717.jpg);background-repeat: no-repeat;background-size: cover;
+    background-attachment: fixed;background-blend-mode: darken;
+}
+ul li img{
+    height: 50px;width: 50px;margin-left: 350px;
+}
+h2{margin-left: 60px;color:white;text-underline-position:white ;}
+@keyframes fade-up {0%{opacity: 0;transform: translateY(30px)scale(0.9);}100%{opacity: 1;transform:translateY(0px)scale(1) ;}}
+div{animation: fade-up 0.5s;text-shadow: 3px 3px 4px black;}
+p{color: rgba(255, 255, 255, 0.815);font-style: italic;font-size: 17px;margin-left: 80%;}
+.r1{margin-left: 90%;}
+h1{color: white;margin-left: 60px;margin-bottom: 20px;}
+.barbed-tapes{color: white;font-style: italic;margin-left: 80px;line-gap-override: 5px;letter-spacing: 2px;}
+.tapes{float: right;height: 200px;width: 200px;margin: 10px 60px 10px 10px;}
+::-webkit-scrollbar{width: 10px;}
+::-webkit-scrollbar-track{background-color: #d1e5ffb2;}
+::-webkit-scrollbar-thumb{background: linear-gradient(#642bff,#ff22e6);border-radius: 10px;}
+.barbed-tapes-1{margin-left: 80px;margin-top: 200px;margin-right: 60px;color:white;letter-spacing: 2px;}
+.tapes-1{float: left;height: 200px;width: 200px;margin: 0px 10px 10px 0px;}
+.barbed-tapes-2{margin-left: 80px;margin-top: 200px;margin-right: 60p;color:white;letter-spacing: 2px;}
+header{position: sticky;top: 0;background-color: rgba(0, 0, 0, 0.877);height:100px;}
+img{box-shadow: 3px 3px 4px black}
+
+
